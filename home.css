@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+.menu{
+    width: 1170px;
+    margin: auto;
+}
+.header{
+    background: linear-gradient(rgba(248, 246, 246, 0),rgba(246, 246, 246, 0)),url(bg3.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav{
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #000;
+}
+.nav li{
+    float:left;
+}
+.nav li a{
+    display:block;
+    color: rgb(248, 244, 244);
+    text-decoration: none;
+    padding: 20px 16px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav li a:hover{
+    background: rgb(12, 12, 12);
+}
+.name{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 13% 30%;
+    text-align: center;
+}
+.name h1{
+    color: rgb(61, 60, 60);
+    text-transform: uppercase;
+    font-size: 70px;
+}
+.name a{
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px 15px;
+}
+.name a:hover{
+    background: #000;
+    color: #fff;
+}
+.name p{
+    font-size: 20px;
+    color: rgb(61, 60, 60);
+}
+.name h2{
+    color: rgb(61, 60, 60);
+    margin-bottom: 20px;
+}
